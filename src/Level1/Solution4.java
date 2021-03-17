@@ -3,7 +3,7 @@ package Level1;
 import java.util.*;
 
 class Solution4 {
-    public int solution(int n, int[] lost, int[] reserve) {         //체육복
+    public int solution(int n, int[] lost, int[] reserve) {         //체육복(그리드 알고리즘)
         int lostSize = lost.length;
         int reserveSize = reserve.length;
         int answer = n - lostSize;
